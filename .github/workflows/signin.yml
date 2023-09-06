@@ -11,7 +11,7 @@ jobs:
     name: Aliyun Signin
     runs-on: ubuntu-latest
     steps:
-      - uses: ImYrS/aliyun-auto-signin@main
+      - uses: hxinbeng/aliyun-auto-signin2@main
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
